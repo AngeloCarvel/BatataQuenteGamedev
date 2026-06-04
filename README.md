@@ -1,5 +1,13 @@
 # 🥔 Batata Quente Gamedev
 
+* 📺 **Vídeo de Anúncio:** [Link do vídeo será adicionado aqui]
+* 🎬 **Vídeo do Resultado Final:** [Ainda vai demorar para sair! Link em breve]
+* 🎮 **Jogue no itch.io:** [Página do jogo será adicionada aqui]
+
+---
+
+*Nota: Se você veio do YouTube, o link oficial para este repositório está na descrição e no comentário fixado do vídeo. E se você achou este projeto no GitHub, saiba que este texto também serviu de roteiro para o nosso vídeo oficial de anúncio!*
+
 Imagina o seguinte cenário: eu crio um projeto base, passo para uma pessoa e, durante 24 horas, ela tem liberdade total para fazer o que quiser ali dentro. Quando o tempo acaba, ela passa para a próxima pessoa continuar. E depois para a próxima. E assim por diante. O que será que vai sair no final? Uma obra-prima ou um monstro injogável? Só o tempo dirá!
 
 Não temos pressa, não tem pressão, o foco aqui é 100% na diversão. Eu farei apenas dois vídeos sobre esse projeto no canal: este de anúncio, e um lá no futuro mostrando o resultado final (que provavelmente vai demorar pra sair).
@@ -41,14 +49,21 @@ Nós vamos agendar um dia para você mexer. Chegou o seu dia? Você tem **24 hor
 5. **Artistas são bem-vindos:** Se você é artista, pode baixar o projeto, colocar suas artes em alguma pasta e commitar. Porém, não há garantia de que alguém vai usar sua arte no jogo.
 6. **Contribuições Pequenas Valem:** O seu PR será testado para garantir que não é sacanagem. No entanto, não é preciso fazer sistemas gigantescos. Se a sua contribuição for pequena, mas fizer diferença, ela será aceita! Entendemos que muita gente trabalha e tem pouco tempo.
 7. **CREDITOS.md:** Fez a sua parte? Abra o arquivo `CREDITOS.md` e adicione o seu nome/nick (como quer ser reconhecido) e o seu `@` do Discord.
+8. **Não toque neste README:** É expressamente proibido alterar, deletar ou adicionar qualquer informação neste arquivo `README.md`. Ele é o manual de instruções geral do projeto e deve permanecer intacto.
+9. **📜 Termo de Responsabilidade:** Lembre-se de que o GitHub registra o autor de cada commit e modificação. Se você fizer algo de errado, agir de má-fé, quebrar o projeto de propósito ou incluir arquivos protegidos por direitos autorais, o seu perfil ficará marcado no histórico. A responsabilidade por qualquer problema legal gerado por uso indevido de assets é exclusivamente de quem subiu o arquivo no repositório.
 
 🏆 **A Recompensa:** Assim como os nossos cargos de Membros do Youtube e Playtesters (que são conquistados por mérito), quem contribuir de forma válida receberá um **cargo exclusivo** no Discord ao final do evento!
 
 ---
 
-## 👨‍💻 Sobrevivência Básica: Git & GitHub
+## 👨‍💻 Sobrevivência Básica: Git, GitHub e Git LFS
 
-Nunca usou GitHub? Segue a receita de como passar o bastão:
+Nunca usou GitHub ou nunca trabalhou com arquivos pesados nele? Segue a receita de como passar o bastão sem quebrar o jogo:
+
+**Passo 0: Instale o Git LFS (OBRIGATÓRIO)**
+Como estamos lidando com imagens, áudios e arquivos da Unity, usamos o Git LFS (Large File Storage). Se você não instalar isso, o seu projeto vai baixar quebrado!
+* Baixe e instale o Git LFS aqui: [https://git-lfs.com/](https://git-lfs.com/)
+* Depois de instalar, abra o seu terminal/CMD e digite: `git lfs install`. Você só precisa fazer isso uma vez na vida.
 
 1. **O Fork:** Vá até o repositório original do projeto aqui no GitHub e clique no botão `Fork` (lá no topo direito). Isso vai criar uma cópia do projeto no seu perfil.
 2. **O Clone:** No seu PC, abra o terminal/CMD e digite:
